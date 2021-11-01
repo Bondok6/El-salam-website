@@ -25,6 +25,7 @@ const navSlide = () => {
   };
 
   burger.addEventListener("click", navToggle);
+
   navLinks.forEach((link) => {
     link.addEventListener("click", navToggle);
   });
