@@ -1,13 +1,12 @@
 "use strict";
 
 // Navigation
-
 const navSlide = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav_links");
   const navLinks = document.querySelectorAll(".nav_links li");
 
-  burger.addEventListener("click", () => {
+  const navToggle = () => {
     //toggle nav
     nav.classList.toggle("nav-active");
 
@@ -23,6 +22,11 @@ const navSlide = () => {
     });
     //Animate burger
     burger.classList.toggle("toggle");
+  };
+
+  burger.addEventListener("click", navToggle);
+  navLinks.forEach((link) => {
+    link.addEventListener("click", navToggle);
   });
 };
 
