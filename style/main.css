@@ -42,10 +42,16 @@ nav {
   letter-spacing: 5px;
   text-transform: uppercase;
 
-  color: #d9a404;
   border: 1px solid #fff;
 
   padding: 4px 12px;
+
+  box-shadow: -5px 5px 10px #000;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #d9a404;
 }
 
 .nav_links {
@@ -58,19 +64,19 @@ nav {
   padding: 0 0.5rem;
   margin-inline: 2rem;
   list-style: none;
-  transition: 0.4s;
+  transition: 0.1s;
 }
 
 .nav_links a {
-  text-decoration: none;
   color: rgb(226, 226, 226);
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: 2px;
+  text-decoration: none;
 }
 
 .nav_links li:hover {
-  border: 1px solid #d9a404;
+  border-bottom: 2px solid #d9a404;
 }
 
 .burger {
