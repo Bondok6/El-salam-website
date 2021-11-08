@@ -165,29 +165,33 @@ nav {
 /* End Navigation */
 
 /* Start Top Slider */
+
 .carousel-item {
   position: relative;
 }
+
 .images {
   width: 100%;
   height: 100vh;
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .image-1 {
   background-image: url("../images/random\ imgs/slide-1.jpeg");
 }
+
 .image-2 {
-  background-color: rgba(0, 0, 0, 0.7);
   background-image: url("../images/random\ imgs/slide-2.jpg");
 }
+
 .image-3 {
-  background-color: rgba(0, 0, 0, 0.6);
   background-image: url("../images/random\ imgs/slide-3.jpg");
 }
+
 .image-4 {
   background-image: url("../images/random\ imgs/slide-4.jpeg");
 }
@@ -196,36 +200,47 @@ nav {
 .carousel-control-next {
   border: 2px solid #fff;
   border-radius: 50%;
+
   background-color: #000;
+
   height: 35px;
   width: 35px;
+
   top: 50vh;
+
   margin: 0 10px;
   padding: 5px;
 }
 
 .f-caption {
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
+
   font-family: "Montserrat", sans-serif;
 }
 
 .f-caption h2 {
   color: #fff;
-  text-transform: uppercase;
-  font-size: 4rem;
-  letter-spacing: 3px;
+
   font-family: "Oswald", sans-serif;
-  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 4rem;
   font-weight: 500;
+  text-align: center;
+
   text-shadow: -3px -3px 10px#000;
   line-height: 1.5;
 }
 
 .btn-container {
+  width: 90%;
   margin-top: 6rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -234,13 +249,16 @@ nav {
 
 .fbtn {
   border: none;
-  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 20px;
+
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+
   padding: 0.8rem 3rem;
+
   text-transform: capitalize;
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   margin-left: 4.5rem;
 }
 
@@ -249,7 +267,17 @@ nav {
   transition: 0.6s;
 }
 
+@media only screen and (max-width: 1000px) {
+  .f-caption h2 {
+    font-size: 2.5rem;
+  }
+  .fbtn {
+    font-size: 1.5rem;
+  }
+}
+
 .s-caption {
+  width: 90%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -270,24 +298,32 @@ nav {
 }
 
 .s-caption p {
+  width: 50%;
+  margin: 0 auto;
+
   color: #fff;
+
   text-align: center;
-  margin: 0 120px;
   font-size: 2rem;
   font-weight: lighter;
 }
 
 .sbtn {
   border: 2px solid #fff;
-  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+
+  background-color: rgba(0, 0, 0, 0.1);
   color: #fff;
-  padding: 0.3rem 3.5rem;
-  text-transform: capitalize;
+
   font-size: 2rem;
-  margin-left: 25px;
   font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
   letter-spacing: 3px;
+
+  padding: 0.3rem 3.5rem;
+
+  margin-left: 25px;
+  margin-bottom: 20px;
 }
 
 .sbtn:hover {
@@ -297,18 +333,27 @@ nav {
 
 @media (max-width: 1000px) {
   .s-caption {
-    left: 5%;
+    width: 100%;
+  }
+  .s-caption h3 {
+    font-size: 2.5rem;
   }
   .s-caption p {
-    margin: 0;
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .sbtn {
+    font-size: 1.5rem;
   }
 }
 
 .t-caption {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  width: 90%;
 
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -316,11 +361,13 @@ nav {
 
 .t-caption h3 {
   color: #fff;
+
+  font-family: "Oswald", sans-serif;
   text-transform: capitalize;
   font-size: 5rem;
-  margin-bottom: 25px;
-  font-family: "Oswald", sans-serif;
   letter-spacing: 3px;
+
+  margin-bottom: 25px;
   text-shadow: -4px -4px 10px #777;
 }
 
@@ -328,18 +375,24 @@ nav {
   color: #fff;
   font-size: 2rem;
   font-weight: lighter;
+
+  width: 50%;
+  margin: 0 auto;
   margin-bottom: 35px;
 }
 
 .tbtn {
   border: none;
-  background-color: rgba(0, 0, 0);
   border-radius: 20px;
+
+  background-color: rgba(0, 0, 0);
   color: #fff;
+
   padding: 0.5rem 3.5rem;
+  margin-bottom: 20px;
+
   text-transform: capitalize;
   font-size: 2rem;
-  margin-bottom: 20px;
 }
 
 .tbtn:hover {
@@ -347,12 +400,15 @@ nav {
 }
 
 @media (max-width: 1000px) {
-  .t-caption {
-    left: 5%;
+  .t-caption h3 {
+    font-size: 3rem;
   }
   .t-caption p {
-    margin: 0;
-    margin-bottom: 35px;
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .tbtn {
+    font-size: 1.5rem;
   }
 }
 
@@ -361,6 +417,8 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  width: 90%;
 
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -382,7 +440,9 @@ nav {
   text-transform: capitalize;
   line-height: 2;
   font-weight: 600;
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  width: 50%;
+  margin: 0 auto;
 }
 
 .ft-caption .link {
@@ -403,6 +463,22 @@ nav {
 
 .link a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .ft-caption h3 {
+    font-size: 2.5rem;
+  }
+  .ft-caption p {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .tbtn {
+    font-size: 1.5rem;
+  }
+  .link a {
+    font-size: 1.5rem;
+  }
 }
 /* End Top Slider */
 
