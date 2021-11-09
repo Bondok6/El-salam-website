@@ -17,6 +17,8 @@ html {
 
 body {
   font-size: 10px;
+
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Start Navigation */
@@ -38,6 +40,8 @@ nav {
 }
 
 .logo {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
   font-size: 3.5rem;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -220,7 +224,7 @@ nav {
 
   transform: translate(-50%, -50%);
 
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .f-caption h2 {
@@ -284,7 +288,7 @@ nav {
   transform: translate(-50%, -50%);
 
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .s-caption h3 {
@@ -356,7 +360,7 @@ nav {
   width: 90%;
 
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .t-caption h3 {
@@ -365,7 +369,7 @@ nav {
   font-family: "Oswald", sans-serif;
   text-transform: capitalize;
   font-size: 5rem;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
   margin-bottom: 25px;
   text-shadow: -4px -4px 10px #777;
@@ -421,7 +425,7 @@ nav {
   width: 90%;
 
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 .ft-caption h3 {
@@ -631,7 +635,7 @@ nav {
 
 .about__content p {
   font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   line-height: 1.5;
   color: #545454;
   text-align: justify;
@@ -651,7 +655,7 @@ nav {
 }
 
 .about__content ul li {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   color: #545454;
 }
 

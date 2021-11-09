@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Kufi+Arabic:100,200,300,regular,500,600,700,800,900);
+
+body {
+  font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+.link a,
+.nav_links a,
+.f-caption h2,
+.s-caption h3,
+.sbtn,
+.t-caption h3,
+.ft-caption h3,
+.ft-caption .link {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  letter-spacing: 0px;
+}
