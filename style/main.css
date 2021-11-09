@@ -229,7 +229,7 @@ nav {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 500;
   text-align: center;
 
@@ -288,7 +288,7 @@ nav {
 }
 
 .s-caption h3 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #d9a404;
   text-transform: capitalize;
   margin-bottom: 30px;
@@ -425,7 +425,7 @@ nav {
 }
 
 .ft-caption h3 {
-  font-size: 5rem;
+  font-size: 5.5rem;
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 30px;
