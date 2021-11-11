@@ -484,6 +484,32 @@ nav {
     font-size: 1.5rem;
   }
 }
+
+.language-switcher {
+  width: 15rem;
+  padding: 0.7rem;
+  border: 1px solid #d9a404;
+  border-radius: 4px;
+  color: #d9a404;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: -90vh;
+
+  font-size: 1.5rem;
+  /* z-index: 10; */
+
+  display: flex;
+  justify-content: space-evenly;
+
+  float: right;
+}
+
+.language-switcher a {
+  font-size: 1.5rem;
+  color: #d9a404;
+  text-decoration: none;
+}
+
 /* End Top Slider */
 
 /* Start Our Services */
