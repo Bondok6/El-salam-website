@@ -11,7 +11,11 @@ body {
 .sbtn,
 .t-caption h3,
 .ft-caption h3,
-.ft-caption .link {
+.ft-caption .link,
+.service-title,
+.about__content h2,
+.card-container .card .content .contentBx h4,
+.card-container .card .content .contentBx h5 {
   font-family: "Noto Kufi Arabic", sans-serif;
   letter-spacing: 0px;
 }
