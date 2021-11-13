@@ -513,13 +513,11 @@ nav {
 /* End Top Slider */
 
 /* Start Our Services */
-/* Services Section */
 #services .services {
   display: flex;
   flex-direction: column;
   text-align: center;
 
-  height: 100vh;
   padding: 10rem 0;
 }
 .service-title {
@@ -547,16 +545,22 @@ nav {
 
 #services .service-item {
   flex-basis: 80%;
+
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
+
   padding: 30px;
   border-radius: 10px;
+
   background-image: url("../images/random\ imgs/slide-3.jpg");
   background-size: cover;
-  margin: 10px 4rem;
+
+  margin: 10px 2rem;
+
   position: relative;
+
   z-index: 1;
   overflow: hidden;
 }
@@ -585,6 +589,7 @@ nav {
   margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
+
 #services .service-item p {
   color: white;
   text-align: left;
@@ -593,25 +598,35 @@ nav {
 
 .cta {
   display: inline-block;
+
   padding: 10px 30px;
+  margin-top: 30px;
+
   color: white;
   background-color: transparent;
+
   border: 2px solid #ee4564;
+
   font-size: 1.7rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  margin-top: 30px;
+  text-decoration: none;
+
   transition: 0.3s ease;
   transition-property: background-color, color;
-  text-decoration: none;
-  /* text-align: center; */
 }
+
 .cta:hover {
   color: white;
   background-color: #ee4564;
 }
+
+@media screen and (max-width: 1200px) {
+  #services .service-bottom {
+    flex-wrap: wrap;
+  }
+}
 /* End Services Section */
-/* End Our Services */
 
 /* Start About */
 
