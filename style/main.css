@@ -626,7 +626,7 @@ nav {
   justify-content: center;
   align-items: center;
 
-  background-color: #fff;
+  background-color: #fdfdfd;
   font-family: "Oswald", sans-serif;
 }
 
@@ -726,7 +726,9 @@ nav {
   align-items: center;
   min-height: 100vh;
   width: 100%;
-  background: #fff;
+  background-color: #fff;
+
+  margin-top: 2rem;
 
   font-family: "Bellota Text", cursive;
 }
@@ -822,9 +824,8 @@ nav {
 /* Start Footer */
 .contact {
   width: 100%;
-  height: 100vh;
 
-  background-color: #fff;
+  background-color: #fdfdfd;
   font-family: "Bellota Text", cursive;
 
   padding-top: 12rem;
@@ -970,6 +971,55 @@ nav {
   background-color: #d9a404;
   color: #fff;
   animation: status 4s ease forwards;
+}
+
+.footer {
+  width: 100%;
+  padding-block: 2.2rem;
+
+  background-color: #222;
+  color: #fff;
+}
+
+.footer-content {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer__info {
+  padding-block: 1rem;
+}
+
+.footer__info h5 {
+  font-size: 2rem;
+}
+
+.footer__info h5 span {
+  color: #d9a404;
+}
+
+.footer__info h6 {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+}
+
+.footer__map {
+  border: 2px solid #d9a404;
+  box-shadow: -2px 3px 7px #fdd96d;
+  padding: 1rem;
+
+  width: 50rem;
+  height: 30rem;
+}
+
+.footer__map iframe {
+  width: 100%;
+  height: 100%;
 }
 
 /* End Footer */
