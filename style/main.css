@@ -101,12 +101,6 @@ nav {
 }
 
 @media screen and (max-width: 1000px) {
-  .nav_links {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
@@ -520,6 +514,7 @@ nav {
 
   padding: 10rem 0;
 }
+
 .service-title {
   font-family: "Bellota Text", cursive;
   font-size: 5rem;
@@ -528,11 +523,6 @@ nav {
 }
 .service-title span {
   color: #d9a404;
-}
-
-#services .service-top {
-  max-width: 500px;
-  margin: 0 auto;
 }
 
 #services .service-bottom {
