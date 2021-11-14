@@ -30,3 +30,7 @@ body {
   letter-spacing: 0;
   border-right: 2rem solid #ee4673;
 }
+
+.about__content p::first-letter {
+  all: unset;
+}
