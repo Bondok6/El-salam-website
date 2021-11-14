@@ -872,7 +872,7 @@ nav {
   color: #000;
   border: 1px solid #d9a404;
 
-  padding: 5px 20px;
+  padding: 0.5rem 2rem;
 
   font-size: 2rem;
 }
@@ -883,7 +883,7 @@ nav {
 }
 
 .contact input:focus {
-  border-left: 20px solid #ee4673;
+  border-left: 2rem solid #ee4673;
   letter-spacing: 2px;
 }
 

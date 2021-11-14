@@ -24,3 +24,9 @@ body {
   font-family: "Noto Kufi Arabic", sans-serif;
   letter-spacing: 0px;
 }
+
+.contact input:focus {
+  border-left: 0;
+  letter-spacing: 0;
+  border-right: 2rem solid #ee4673;
+}
