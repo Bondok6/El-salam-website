@@ -14,8 +14,13 @@ body {
 .ft-caption .link,
 .service-title,
 .about__content h2,
+.team-work,
 .card-container .card .content .contentBx h4,
-.card-container .card .content .contentBx h5 {
+.card-container .card .content .contentBx h5,
+.contact h2,
+.msg textarea,
+.contact input,
+.contact button {
   font-family: "Noto Kufi Arabic", sans-serif;
   letter-spacing: 0px;
 }
