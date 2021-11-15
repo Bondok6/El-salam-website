@@ -710,11 +710,9 @@ nav {
 }
 
 .about__content ul li {
-  /* font-family: "Montserrat", sans-serif; */
   color: #545454;
 }
 
-/* Bug !!  when hover, because of toggle in small screen */
 .about__content ul li:hover {
   background-color: #fff;
 }
@@ -744,7 +742,7 @@ nav {
 
 /* ___________________Start Projects Section____________________ */
 #projects {
-  height: 100vh;
+  min-height: 100vh;
 
   display: flex;
   flex-direction: column;
