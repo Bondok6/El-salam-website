@@ -62,7 +62,7 @@ async function handleSubmit(event) {
 
 form.addEventListener("submit", handleSubmit);
 
-// Skills 3D animations
+// Skills 3D animations Arabic
 $(document).ready(function () {
   const entries = [
     { label: "تنظيف الأسطح الحديدية" },
@@ -95,4 +95,38 @@ $(document).ready(function () {
   };
 
   $("#tag").svg3DTagCloud(settings);
+});
+
+// Skills 3D animations English
+$(document).ready(function () {
+  const entries = [
+    { label: "Iron Surface Cleaning" },
+    { label: "Chemical Processing" },
+    { label: "Chemical Cleaning" },
+    { label: "Metal Structure Cleaning" },
+    { label: "Sandblasting" },
+    { label: "Ship Paints" },
+    { label: "Floating Paints" },
+    { label: "Maintenance of Various Marine Units" },
+  ];
+
+  const settings = {
+    entries: entries,
+    width: 640,
+    height: 480,
+    raduis: "65%",
+    raduisMin: 75,
+    bgDraw: true,
+    bgColor: "#fff",
+    opacityOver: 1.0,
+    opacityOut: 0.05,
+    opacitySpeed: 6,
+    fov: 800,
+    speed: 1,
+    fontFamily: "Courier, Arial, sans-serif",
+    fontSize: "2.5rem",
+    fontColor: "#d9a404",
+  };
+
+  $("#tag-en").svg3DTagCloud(settings);
 });

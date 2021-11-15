@@ -779,11 +779,12 @@ nav {
 .projects__description p {
   color: #222;
   font-size: 2rem;
-  padding: 3rem 0 0 3rem;
   line-height: 1.8;
+
+  padding-inline: 2rem;
 }
 .projects__description ul {
-  padding-right: 4rem;
+  padding-inline: 4rem 0;
 }
 .projects__description ul li {
   font-size: 2rem;
