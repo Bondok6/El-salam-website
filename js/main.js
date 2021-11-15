@@ -61,3 +61,38 @@ async function handleSubmit(event) {
 }
 
 form.addEventListener("submit", handleSubmit);
+
+// Skills 3D animations
+$(document).ready(function () {
+  const entries = [
+    { label: "تنظيف الأسطح الحديدية" },
+    { label: "المعالجة الكيميائية" },
+    { label: "النظافة الكيميائية" },
+    { label: "تنظيف الهياكل المعدنية" },
+    { label: "السفخ بالرمال" },
+    { label: "دهانات السفن" },
+    { label: "دهانات العائمات" },
+    { label: "صيانة الوحدات البحرية" },
+    { label: "أعمال المراشمة" },
+  ];
+
+  const settings = {
+    entries: entries,
+    width: 640,
+    height: 480,
+    raduis: "65%",
+    raduisMin: 75,
+    bgDraw: true,
+    bgColor: "#fff",
+    opacityOver: 1.0,
+    opacityOut: 0.05,
+    opacitySpeed: 6,
+    fov: 800,
+    speed: 1,
+    fontFamily: "Courier, Arial, sans-serif",
+    fontSize: "2.5rem",
+    fontColor: "#d9a404",
+  };
+
+  $("#tag").svg3DTagCloud(settings);
+});

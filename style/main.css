@@ -715,8 +715,90 @@ nav {
     box-shadow: -10px 10px 5px #d9a404;
   }
 }
-
 /* End About */
+
+/* ___________________Start Projects Section____________________ */
+#projects {
+  margin-top: 1rem;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#projects h2 {
+  font-size: 5rem;
+  text-transform: capitalize;
+
+  color: #222;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+#projects h2 span {
+  color: #d9a404;
+}
+
+.projects {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects__description {
+  width: 50%;
+}
+
+.projects__description p {
+  color: #222;
+  font-size: 2rem;
+  padding: 3rem 0 0 3rem;
+  line-height: 1.8;
+}
+.projects__description ul {
+  padding-right: 4rem;
+}
+.projects__description ul li {
+  font-size: 2rem;
+}
+
+.projects__titles {
+  width: 50%;
+}
+
+#tag {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1000px) {
+  #projects {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .projects {
+    flex-direction: column;
+  }
+  .projects__description p {
+    line-height: 1.5;
+  }
+
+  .projects__description {
+    width: 100%;
+  }
+  .projects__titles {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects__description h2 {
+    font-size: 2rem;
+  }
+}
+/* ____________________End Projects Section _________________________*/
 
 /* Start Our Team */
 .team-work {
@@ -727,7 +809,7 @@ nav {
   width: 100%;
   background-color: #fff;
 
-  margin-top: 2rem;
+  padding-top: 10rem;
 
   font-family: "Bellota Text", cursive;
 }
