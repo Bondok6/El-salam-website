@@ -781,9 +781,11 @@ nav {
 
   padding-inline: 2rem;
 }
+
 .projects__description ul {
   padding-inline: 4rem 0;
 }
+
 .projects__description ul li {
   font-size: 2rem;
 }
